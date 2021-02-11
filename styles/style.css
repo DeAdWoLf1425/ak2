@@ -1,0 +1,130 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  color: #40515E
+}
+/*Text align will only work if the width is not specified*/
+.top-container{
+  background-color: #f7f6e7;
+  padding-top: 100px;
+}
+.mimg{
+  height: 400px;
+  width: 30%;
+  border-radius: 100%;
+}
+.mmimg{
+  height: 200px;
+  border-radius: 0.5rem;
+  width: 35%;
+  margin-left: 30px;
+  float: right;
+}
+.imgi{
+  height: 250px;
+  width: 35%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;/*16px=100%=1em.em & % are dynamic in nature as both when use added up by the body font size.
+  to over com tht instead of 'em' we use rem where 'r' is for root. */
+  color: #66BFBF;
+}
+h2{
+font-family: 'Merriweather', sans-serif;
+font-size: 2.5rem;
+color: #66BFBF;
+padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+
+.b-c{
+  position: absolute;
+  top: 200px;
+}
+.t-c{
+  position:absolute;
+  right: 450px;
+  top: 50px;
+  }
+  hr{
+  border: dotted grey 6px;
+  width: 5%;
+  border-bottom: 0;
+  margin: 100px auto;
+  }
+  .q{
+    font-style: oblique ;
+    font-size: 30px;
+  }
+.w{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.u{
+  color: #66BFBF;
+  font-weight: normal;
+}
+span{
+   text-decoration: underline;
+}
+.skill-row{
+  width: 50% ;
+  margin:100px auto 100px;
+  text-align: left;
+}
+.btn {
+  background: #525e66;
+  background-image: -webkit-linear-gradient(top, #525e66, #0fa3ff);
+  background-image: -moz-linear-gradient(top, #525e66, #0fa3ff);
+  background-image: -ms-linear-gradient(top, #525e66, #0fa3ff);
+  background-image: -o-linear-gradient(top, #525e66, #0fa3ff);
+  background-image: linear-gradient(to bottom, #525e66, #0fa3ff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #fffafa;
+  font-size: 20px;
+  padding: 10px 22px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #2bd6c2;
+  background-image: -webkit-linear-gradient(top, #2bd6c2, #1b876c);
+  background-image: -moz-linear-gradient(top, #2bd6c2, #1b876c);
+  background-image: -ms-linear-gradient(top, #2bd6c2, #1b876c);
+  background-image: -o-linear-gradient(top, #2bd6c2, #1b876c);
+  background-image: linear-gradient(to bottom, #2bd6c2, #1b876c);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 20px 0 10px 0;
+
+}
+.middle-container{
+  margin: 100px 0;
+}
+.cpr{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 30px;
+}
